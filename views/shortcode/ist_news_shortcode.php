@@ -14,6 +14,7 @@ $news = get_posts(
 		'post_status' => 'publish',
 	)
 );
+wp_enqueue_style( $ist->prefix . '_' . 'frontend_style', $ist->plugin_base_url . 'css/style.css');
 ?>
 <div class='<?php echo $ist->prefix;?>_news_wrapper'>
 <h2>News</h2>
