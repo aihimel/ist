@@ -1,0 +1,18 @@
+/**
+ *
+ * @file style.css IST plugin shortcode styling file. Write all css rules here.
+ *
+ * */
+/**
+ *
+ * IST Notice
+ *
+ * */
+.ist_notice_wrapper > h2{
+	text-decoration: underline;
+}
+
+.ist_notice_block{
+	border-bottom: 2px solid gray;
+	padding-left: 20px;
+}
